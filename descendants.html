@@ -4,8 +4,8 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, inital-scale=1">
     <title>Descendants</title>
     <link rel="icon" href="images/oistar_logo.png" type="image/png" sizes="16x16">
-    <link rel="stylesheet" href="descendantStyles.css"> <!-- Link to seperate stylesheet from portfolio pages -->
-    <script defer src="Script.js"></script>
+    <link rel="stylesheet" href="descendantStyles.css"> <!-- Link to seperate stylesheet from portfolio pages for easier readability and styling -->
+    <script defer src="Script.js"></script> <!-- Link to script  -->
 </head>
 <body>
     
@@ -14,7 +14,7 @@
     <header><h1>Descendants Game</h1></header> <!-- H1 here for SEO, will be replaced by logo in CSS for UI  -->
     <div id="topBar">
         <div>
-            <a href="index.html" title="Oscar Knorr Portfolio"><h2>Oscar Knorr</h2></a>
+            <a href="index.html" title="Oscar Knorr Portfolio"><h2>Oscar Knorr</h2></a> <!-- Placed alongside other icons to indicate link to external site -->
         </div>
         <div>
 
@@ -22,7 +22,7 @@
     </div>
     <div id="titleArea"> 
         <div id="dynamicBG">
-            <div id="topBar">
+            <div id="topBar"> <!-- Divided into L and R sections for positioning -->
                 <div id="leftSide">
                     <a href="index.html" title="Oscar Knorr Portfolio" rel="external" target="_blank"><h2>Oscar Knorr</h2></a>
                     <a href="https://www.instagram.com/" title="Instagram" rel="external" target="_blank"><img src="images/instagram.svg"></a>
@@ -35,9 +35,9 @@
                     <a href="https://store.steampowered.com/" title="Steam Page" rel="external" target="_blank"><img src="images/steam.svg"></a>
                 </div>
             </div>
-            <img id="banner" src="images/descendantsImg.png" alt="Banner Image">
+            <img id="banner" src="images/descendantsImg.png" alt="Banner Image"> <!-- banner Image rotates through a cycle every 5 seconds using js -->
         </div>
-        <div id="steamButton">
+        <div id="steamButton"> <!-- Absoulute positioning for overlay -->
             <a href="https://store.steampowered.com/" title="Steam Page" rel="external" target="_blank">
                 <img src="images/wishlistButton.png" alt="Wishlist on Steam" >
             </a>
@@ -48,9 +48,9 @@
 <!-- ==================== NAV BAR ==================== -->
     <nav id="navh">
         <ul>
-            <div id="navlinks">
+            <div id="navlinks"> <!-- Extra div for navigation layout changes (potential) -->
                 <div id="navlinkstop">
-                    <li><span><a>About</a></span></li>
+                    <li><span><a>About</a></span></li> <!-- Span here (and in other pages) to indicate current page -->
                     <li><a href="presskit.html" title="Press Kit">Press Kit</a></li>
                     <li><a href="devlog.html" title="Dev Log">Dev Log</a></li>
                 </div>
@@ -70,7 +70,7 @@
 
 <!-- ==================== CONTENT AREA 1 ==================== -->
     <h2 id="contentOnetitle">What Is Descendants?</h2>
-    <article id="twoColumns">
+    <article id="twoColumns"> <!-- Uses flex display for 2 columns (technically there are three sections, though the middle one is the bird) -->
         <section> 
             <div>
                 <h3>Descend Avaria</h3>
@@ -84,8 +84,8 @@
                 <p>Fallen from the nest, you must locate and rescue your lost eggs no matter the cost. With everything against you, this quick paced metroidvania will push your skills to the limit.</p>
             </div>
         </section>
-        <section id="birdsection">
-            <img id="stickyBird" src="images/straightDiveframe0000.png">
+        <section id="birdsection"> <!-- Third middle column between the two columns, this section is sticky to follow user view-->
+            <img id="stickyBird" src="images/straightDiveframe0000.png"> <!-- Animated through image changes done in js -->
         </section>
         <section> 
             <div>
@@ -103,11 +103,11 @@
 
 <!-- ==================== EMAIL SIGNUP ==================== -->
     <div id="subscription-container">
-        <img src="images/Fear.png" width="860px">
+        <img src="images/Fear.png" width="860px"> <!-- Image styled to be contained within subscription box-->
         <h2>Subscribe to Dev Updates</h2>
         <p>Get the latest Descendants updates straight to your inbox!</p>
   
-        <form id="subscription-form">
+        <form id="subscription-form"> <!-- uses inbuilt input functionality, just for show would require mailing host connection to gather any actual data-->
             <input type="email" name="email" placeholder="Enter your email" required>
             <button type="submit">Subscribe</button>
         </form>
@@ -121,7 +121,7 @@
             <p>I have lived in the isoated city of Perth, WA, all my life. Born to two artists/teachers I have spent a large majority of my life absorbed in the world of art, dragged from gallery to gallery across Australia and Europe. To keep their child enterained on these overseas outings they bestowed upon me a DS when I was four. Ever since i've been playing and designing games. In highschool I discovered my love of board games, theatre, roleplaying games and visual arts, and was fortunate enough to find and befriend like-minded people to whom I owe a great deal for their support and creativity over the last decade. 
             </p>
             <br>
-            <p id="secondary">
+            <p id="secondary"> <!-- id here for removal of additional content in mobile version (display none)-->
             My vision for my work practices is to create a small, independant game studio in which I am able to produce quality games both in the digital and tabletop spheres. Ideally these games address themes which I am passionate about, and take an artistic approch to game design highlighted by strong storytelling and thematic elements generated by mechanical systems which work to emphasise these ideas to audiences.
             </p>
         </section>
@@ -131,7 +131,7 @@
     </article>
 
 <!-- ==================== FOOTER ==================== -->
-    <footer>
+    <footer> <!-- Same footer as portfolio-->
         <p id="aoc">I acknowledge and pay respects to the traditional custodians of this land, Australia, upon which I am able to create art and tell stories.</p>
         <ul>
             <li><p>&copy; Oscar Knorr</p></li> 

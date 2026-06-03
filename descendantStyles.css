@@ -391,4 +391,16 @@ iframe{
 	height: auto;
 }
 
+#steamButton{
+	max-width: 360px ;
+	width: 360px;
+	height: auto;
+}
+
+#steamButton img{
+	max-width: 360px ;
+	width: 360px;
+	height: auto;
+}
+
 }

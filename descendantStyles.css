@@ -433,6 +433,10 @@ iframe{
 	max-width: 360px ;
 	width: 360px;
 	height: auto;
+	justify-self: center;
+	align-self: center;
+    position: absolute;
+    bottom: 60vh;
 }
 
 #steamButton img{

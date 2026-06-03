@@ -64,9 +64,6 @@ header h1 {
 	display: none;
 }
 
-header img {
-
-}
 
 
 /* NAVIGATION SIDE
@@ -325,9 +322,6 @@ header img {
 	display: flex;
 }
 
-#artimages section {
-	
-}
 
 #artimages img {
 	margin: 10px;

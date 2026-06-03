@@ -401,11 +401,20 @@ body{
 #twoColumns div img{
 	max-width: 360px ;
 	height: auto;
+	justify-self: center;
+	justify-content: center;
 }
 
 #twoColumns div p{
 	max-width: 360px ;
 	height: auto;
+	text-align: center;
+}
+
+#twoColumns div h3{
+	max-width: 360px ;
+	height: auto;
+	text-align: center;
 }
 
 iframe{

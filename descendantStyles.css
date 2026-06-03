@@ -375,6 +375,14 @@ body{
 	width: 100%;
 }
 
+#trailerArea {
+	justify-content: center;
+	justify-self: center;
+	align-self: center;
+	align-content: center;
+	text-align: center;
+}
+
 #twoColumns{
 	display: block;
 	max-width: 360px ;
@@ -385,6 +393,8 @@ body{
 	justify-self: center;
 	justify-content: center;
 	text-align: center;
+	left: 50%;
+	transform: translate(-50%);
 }
 
 #twoColumns div{

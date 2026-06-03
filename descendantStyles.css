@@ -426,6 +426,27 @@ iframe{
 	display: block;
 }
 
+#aboutDev img{
+	display: none;
+}
+
+#navh {
+	background-color: #cbdde4;
+	z-index: 2;
+	list-style: none;
+    font-weight: bold;
+	font-size: 1em;
+}
+
+
+#navh #navlinks a {
+	color: #000000; /* white */
+	text-decoration: none;
+	padding: 5px 7.5px 7.5px 7.5px;
+	border: 2px;
+	border: #000000;
+	border-radius: 8px;
+}
 
 
 

@@ -1,0 +1,556 @@
+
+/*
+COLOURS
+#211d1c - dark brown (for text)
+#2f261d - brown
+#4389a2 - teal
+#c62d03 - burnt red
+#da4d11 - Orange (links)
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+body {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #f6ebe8;
+	margin: 0;
+	background-color: #253d49;
+	display: flex;
+}
+
+#wrapper {
+	position: relative;
+	width: 88vw; 
+	padding: 0px 0px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+a {
+	color: #ff5f03; /* dark teal */
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ff5f03; /* burnt red */
+}
+
+
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+	color: #ffffff;	
+}
+	
+header h1 {
+	display: none;
+}
+
+header img {
+
+}
+
+
+/* NAVIGATION SIDE
+----------------------------------------
+*/
+#navs {
+	background-color: #12262d;
+	position: sticky;
+	top: 0px; left: 0px;
+	width: 12%; 
+	height: 100vh; 
+	padding-top: 0px;
+	z-index: 2;
+	display: block;
+}
+
+
+
+#navs #navlinks a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	padding: 10px 20px 15px 20px;
+	display: flex;
+}
+
+#navs #navlinks a:hover {
+	background-color: #da4d11;
+}
+
+#navs #navlinks a:visited {
+	color: #ffffff;
+}
+
+#navs ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 100%;
+	list-style: none;
+	margin: 0px;
+}
+
+#navs li {
+	display: inline;
+}
+
+#navs #navlinks span a{
+    color: #ffffff;
+	background-color: #da4d11;
+}
+
+/* NAVIGATION HEAD
+----------------------------------------
+*/
+
+#navh {
+	background-color: #12262d;
+	top: 0px; left: 0px;
+	width: 100%; /* = 1200px */
+	height: 115px;
+	padding-top: 0px;
+	z-index: 2;
+	list-style: none;
+}
+
+#navh #navlinks a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	padding: 10px 15px 15px 15px;
+}
+
+#navh #navlinks a:hover {
+	background-color: #da4d11;
+}
+
+#navh #navlinks a:visited {
+	color: #ffffff;
+}
+
+#navh ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style: none;
+	margin: 0px;
+	display: flex;
+	text-align: center;
+}
+
+#navlinkstop {
+	justify-content: center;
+	text-align: center;
+}
+
+#navlinkbottom {
+	padding-top: 30px;
+	justify-content: center;
+}
+
+
+#navh #logolink img {
+	width: 100px; height: auto;
+	list-style: none;
+}
+
+#navh li {
+	flex-wrap: wrap;
+	display: inline;
+	font-size: 1em;
+}
+
+#navh #navlinks span a{
+    color: #ffffff;
+	background-color: #da4d11;
+}
+
+/* INDEX CONTENT 1
+----------------------------------------
+*/
+#indexabout {
+	padding: 20px 30px;
+	display: flex;
+	background-color: #253d49;
+}
+
+#indexabout img {
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+#indexabout #aboutbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+/* INDEX CONTENT 2
+----------------------------------------
+*/
+#colIndex {
+    display: flex;
+	padding-top: 40px;
+	padding-bottom: 30px;
+    margin: 0 0;
+    text-align: center;
+	justify-content: center;
+	background-color: #255f74;
+}
+
+#colIndex section {
+    padding: 0 20px;
+	width: 376px; height: auto;
+
+}
+
+/* INDEX CONTENT 3 (BIG GAME)
+----------------------------------------
+*/
+#bigGame {
+	text-align: center;
+}
+/* ABOUT ME CONTENT 1
+----------------------------------------
+*/
+
+#aboutmecontent {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+/* ABOUT ME CONTENT 2 (video)
+----------------------------------------
+*/
+
+#aboutvideo {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+#aboutvideo #cvbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+/* GAME CONTENT 1
+----------------------------------------
+*/
+
+#gamecontent #gameabout section {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+#gamecontent #gameabout a {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+#gamecontent #gamedark {
+	background-color: #255f74;
+	text-align: center;
+}
+
+#gamecontent #gamedark section {
+	padding: 20px 30px;
+}
+
+/* DESIGN CONTENT 1
+----------------------------------------
+*/
+
+#designcontent #designabout section {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+#designcontent #designabout a {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+#designcontent #designdark {
+	background-color: #255f74;
+}
+
+#designcontent #designdark section {
+	padding: 20px 30px;
+	text-align: center;
+}
+
+/* ARTWORK CONTENT 1
+----------------------------------------
+*/
+
+#artimages {
+	padding: 30px 30px 30px 30px;
+	justify-content: center;
+	display: flex;
+}
+
+#artimages section {
+	
+}
+
+#artimages img {
+	margin: 10px;
+}
+
+
+#artimages img:hover {
+	opacity: 10%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+
+.centered:hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+/* CONTACT CONTENT 1
+----------------------------------------
+*/
+
+#contactcontent {
+	padding-left: 30px;
+	text-align: center;
+	padding-right: 30px;
+}
+
+
+
+/* CONTACT CONTENT 2
+----------------------------------------
+*/
+#contactbuttons {
+	padding-left: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+#contactbuttons section {
+	padding: 0px 20px;
+}
+
+#contactbuttons #linkedinbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+#contactbuttons #cvbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+/* SIDEBAR
+----------------------------------------
+*/
+aside {
+	background-color: #eee9d9;
+	display: flex;
+}
+
+aside h2 {
+	font-size: 1.2em;
+}
+
+aside img {
+	width: 70%; height: auto;
+}
+
+aside section {
+	padding: 25px;
+}
+
+
+/* SMALL CONTACT AREA
+----------------------------------------
+*/
+#smallcontact {
+	padding: 0px 30px;
+	background-color: #253d49;
+
+}
+
+#smallcontact #contactbutton {
+	padding: 2px 8px;
+	border-color: #ffffff;
+	border: 2px;
+	border-style: solid;
+	background-color: #37404b;
+	border-radius: 2%;
+}
+
+/* FOOTER
+----------------------------------------
+*/
+footer {
+	font-size: 0.8em;
+	background-color: #070707;
+}
+
+footer #aoc {
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 1.1em;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+footer li {
+	list-style: none;
+	padding: 10px 20px;
+}
+
+/* MEDIA QUERIES (Mobile)
+----------------------------------------
+switches to head nav, removes some columns and scales elements accordingly
+*/
+
+@media (max-width: 767px) {
+	#wrapper {
+		width: 100%;
+	}
+	#navs {
+		display: none;
+	}
+	#colIndex {
+		flex-wrap: wrap;
+	}
+	#indexabout img {
+		display: none;
+	}
+	#indexabout {
+		flex-wrap: wrap;
+		margin-bottom: 20px;
+	}
+	#indexabout section{
+		width: 100%;
+	}
+	footer li{
+		padding: 10px 10px;
+	}
+	#aboutvideo iframe {
+		display: none;
+	}
+	#aboutvideo #panlink {
+		font-size: 0.8em;
+	}
+	#gamedark img {
+		width: 90%; height: auto;
+	}
+	#designdark img {
+		width: 90%; height: auto;
+	}
+	#artimages {
+		flex-wrap: wrap;
+	}
+	#artimages section {
+		width: 80%;
+		justify-content: center;
+		padding-right: 15px;
+	}
+	#artimages section .container img {
+		width: 100%; height: auto;
+	}
+	#artimages section .container p {
+		font-size: 0.8em;
+	}
+}
+
+/* MEDIA QUERIES (Tablet/Ipad)
+----------------------------------------
+Did not have time to do but you can imagine its functionality as being a
+smaller scale desktop version with a side nav on both orientations, but a removal
+of columns on portrait mode for the idex page. This would be simple to do by
+removing flex display and scaling the elements down. orientation can be read by media
+queries as @ o/ms viewport or media queries.
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	#navh {
+		display: none;
+	}
+	
+}
+
+
+/* MEDIA QUERIES (Desktop)
+----------------------------------------
+*/
+
+@media (min-width: 1025px) and (max-width: 99999px) {
+	#navh {
+		display: none;
+	}
+
+}

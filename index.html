@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8" name="viewport" content="width=device-width, inital-scale=1">
+    <title>Oscar Knorr Games, Art and Design</title>
+    <link rel="icon" href="images/oistar_logo.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body> 
+
+<!-- NOTE ON IMAGES: Only images in the artworks page have been optimised for the web.
+  This is to prove that I know how to do it, but for the sake of needing 
+  time elsewhere, I omitted optimising images on other pages as there arent many on them
+  unlike the artworks page -->
+
+<!-- NOTE ON VALIDATORS: I have validated all pages and css. Some errors remain but these errors
+ are not cause of any functional errors OR exist as a result of the meta tag for reading the viewport/media queries
+ and I do not know how to change that in such a way where it both works and errors do not appear in 
+ the validator, maybe perplexity knows why its and error? -->
+
+<!-- ==================== NAVIGATION SIDE ==================== -->
+    <nav id="navs"> <!-- Nav menu on side for desktop view and positioned to follow scroll  -->
+        <ul>
+            <div id="logolink">
+                <li><img src="images/Screenshot 2025-05-05 013933.png" alt="logoimage" width="160" height="90"></li>
+            </div>
+            <div id="navlinks">
+                <li><span><a>Home</a></span></li>
+                <li><a href="about.html" title="About Me">About Me</a></li>
+                <li><a href="games.html" title="Game Works">Game Works</a></li>
+                <li><a href="designs.html" title="Design Works">Design Works</a></li>
+                <li><a href="artworks.html" title="Artworks">Artworks</a></li>
+                <li><a href="contact.html" title="Contact &amp; Hiring">Contact &amp; Hiring</a></li>
+            </div>
+        </ul>
+    </nav>
+
+<div id="wrapper">
+
+<!-- ==================== NAVIGATION HEAD ==================== -->
+    <nav id="navh"> <!-- Nav menu at head for mobile, ideally would be centred but ran out of time, would use justify centre and a defined width using vh in css  -->
+        <ul>
+            <div id="navlinks">
+                <div id="navlinkstop">
+                    <li><span><a>Home</a></span></li>
+                    <li><a href="about.html" title="About Me">About Me</a></li>
+                    <li><a href="games.html" title="Game Works">Game Works</a></li>
+                </div>
+                <div id="navlinkbottom">
+                    <li><a href="designs.html" title="Design Works">Design Works</a></li>
+                    <li><a href="artworks.html" title="Artworks">Artworks</a></li>
+                    <li><a href="contact.html" title="Contact &amp; Hiring">Contact &amp; Hiring</a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+<!-- ==================== HEADER ==================== -->
+    <header>
+        <h1>Oscar Knorr Portfolio Oistar Games</h1> <!-- H1 here for SEO, will be replaced by logo in CSS for UI  -->
+        <img src="images/homebanner.png" alt="Banner Image" width="100%" height="auto">
+    </header>
+
+
+<main>
+<!-- ==================== CONTENT AREA 1 ==================== -->
+    <article id="indexabout">
+        <section> <!-- section here is unnecessary but included as best practice for potential future changes -->
+            <h2>A Bit About Me</h2>
+                <p>
+                    My name is Oscar, I am a game designer and artist hailing from Perth, Western Australia. I am currently double majoring in visual arts and game design at Edith Cowan Uni, while also helping run the tabletop games club there on the side.
+                    Across my breaks I get to spend most of my time prototyping board games, thinking up stories, and sketching stuff!<br><br> I hope to bring further attention and growth to the art and game design community in Western Australia 
+                    throgh the creation of works with an emphasis on storytelling and strong themes created through these mediums.
+                </p>
+                <a id="aboutbutton" href="about.html" title="About Me">Learn More</a>
+        </section>
+
+        <section>
+            <img src="images/Profile_image_nobg.png" alt="Image of Oscar Knorr" width="190" height="190">
+        </section>
+    </article>
+
+<!-- ==================== CONTENT AREA 2 ==================== -->
+    <article id="colIndex"> <!-- In 3 sections for flex columns  -->
+        <section>
+
+            <a href="games.html" title="View Games Works">
+                <img src="images/games_image_square.jpeg" alt="Game Image" width="336" height="336">
+                <h2>Games and Game Prototypes</h2>
+            </a>
+                <!-- Image and Heading are links, not text below  -->
+                <p>A selection of digital and analogue game projects</p>
+        </section>
+
+        <section>
+
+            <a href="designs.html" title="View Design Works">
+                <img src="images/design_image_square.jpeg" alt="Design Image" width="336" height="336">
+                <h2>Digital Design Work</h2>
+            </a>
+                <!-- Image and Heading are links, not text below  -->
+                <p>Various design works in 2d and 3d </p>
+        </section>
+
+        <section>
+            
+            <a href="artworks.html" title="View Artworks">
+                <img src="images/art_image_square.png" alt="Artwork Image" width="336" height="336">
+                <h2>Traditional Artworks</h2>
+            </a>
+                <!-- Image and Heading are links, not text below  -->
+                <p>A Collection of works using a variety of traditional art processes</p>
+        </section>
+
+    </article>
+
+<!-- ==================== CONTENT AREA 3 (BIG GAME)==================== -->
+    <article id="bigGame">
+        <section> <!-- section here is unnecessary but included as best practice for potential future changes -->
+            <a href="descendants.html" title="View Descendants Game" rel="external" target="_blank" >
+                <h2>My Upcoming Game: Descendants</h2>
+                <img src="images/descendantsImg.png" alt="Descendants Game Image" width="1200" height="400">
+            </a>
+        </section>
+    </article>
+</main>
+<!-- ==================== SMALL CONTACT AREA ==================== -->
+    <article id="smallcontact">
+        <section> <!-- section here is unnecessary but included as best practice for potential future changes -->
+                <p>Contact Me Via: <br>
+                    Phone Number <br>
+                    email at: <a href="mailto:oscarnotreal@gmail.com">oscarnotreal@gmail.com</a></p>
+                <a id="contactbutton" href="contact.html" title="Contact and Hiring">Learn More or Hire Me</a>
+        </section>
+    </article>
+
+<!-- ==================== FOOTER ==================== -->
+    <footer>
+        <p id="aoc">I acknowledge and pay respects to the traditional custodians of this land, Australia, upon which I am able to create art and tell stories.</p>
+        <ul>
+            <li><p>&copy; Oscar Knorr</p></li> 
+            <li><p><a href="docs/sample_doc.pdf">Privacy Policy</a></p></li>   <!-- using doc provided in workshop folders as placeholder -->
+            <li><p>Website by Oscar Knorr</p></li>
+        </ul>
+    </footer>
+
+</div>
+</body>
+
+</html>

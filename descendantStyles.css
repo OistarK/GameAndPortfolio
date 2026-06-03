@@ -1,0 +1,358 @@
+
+/*
+COLOURS
+#211d1c - dark brown (for text)
+#2f261d - brown
+#4389a2 - teal
+#c62d03 - burnt red
+#da4d11 - Orange (links)
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+body {
+    margin: 0;
+    background-color: #010102;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+	font-weight: 300;
+	cursor: url('images/Cursor.png'), auto;
+}
+
+
+
+/*HEADER
+----------------------------------------
+*/
+header {
+    display: none;
+}
+
+#titleArea #dynamicBG{
+	position: relative;
+}
+
+#topBar{
+	position: absolute;
+	width: 100%;
+}
+
+#topBar h2{
+	color: #ffffff;
+	margin: 0px;
+}
+
+#leftSide {
+	display: flex;
+	position: relative;
+}
+
+#topBar a {
+	padding: 20px;
+	text-decoration: none;
+}
+
+#rightSide {
+	display: flex;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	justify-self: right;
+}
+
+
+#topBar img{
+	max-width: 32px;
+	max-height: 32px;
+	filter: invert(100%);
+	
+}
+
+#titleArea #dynamicBG img{
+    width: 100%;
+    height: 90vh;
+    top: 0%;
+}
+
+#titleArea #steamButton {
+    justify-self: center;
+	align-self: center;
+    position: absolute;
+    bottom: 1vh;
+}
+
+#titleArea {
+    padding-bottom: 50px;
+}
+
+/*NAV BAR
+----------------------------------------
+*/
+
+#navh {
+	background-color: #cbdde4;
+	z-index: 2;
+	list-style: none;
+    font-weight: bold;
+	font-size: 2em;
+}
+
+
+#navh #navlinks a {
+	color: #000000; /* white */
+	text-decoration: none;
+	padding: 10px 15px 15px 15px;
+	border: 2px;
+	border: #000000;
+	border-radius: 8px;
+}
+
+#navh #navlinks a:hover {
+	background-color: #da4d11;
+}
+
+#navh #navlinks a:visited {
+	color: #000000;
+}
+
+span a{
+	background-color: #da4d11;
+}
+
+#navh ul li{
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style: none;
+}
+
+#navlinkstop {
+	justify-content: center;
+	text-align: center;
+    display: flex;
+}
+
+/*TRAILER AREA
+----------------------------------------
+*/
+
+#trailerVideo {
+	justify-self: center;
+	align-self: center;
+}
+
+#trailerArea h2 {
+	justify-self: center;
+	color: #ffffff;
+}
+
+#trailerVideo iframe{
+
+}
+
+/*CONTENT AREA 1
+----------------------------------------
+*/
+
+#twoColumns{
+	display: flex;
+	color: #ffffff;
+	justify-content: space-around;
+}
+
+#contentOnetitle {
+	text-align: center;
+	color: #ffffff;
+}
+
+#twoColumns section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#twoColumns div{
+	width: 512px;
+	height: 400px;
+	padding-top: 5px;
+	padding-bottom: 45px;
+	font-size: 1.8em;
+}
+
+#stickyBird{
+	top: 0px;
+	position: sticky;
+}
+
+/*PRESS KIT IMAGES
+----------------------------------------
+*/
+
+#presszone{
+	display: flex;
+	color: #ffffff;
+	justify-content: space-around;
+}
+
+#contentOnetitle {
+	text-align: center;
+	color: #ffffff;
+}
+
+#presszone section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#presszone div{
+	width: 512px;
+	height: 400px;
+	padding-top: 5px;
+	padding-bottom: 45px;
+	font-size: 1.8em;
+}
+
+/*PRESS KIT DOWNLOAD
+----------------------------------------
+*/
+
+#pressdownload{
+	text-align: center;
+	color: #da4d11;
+	text-decoration: underline;
+}
+
+/*DEV UPDATES
+----------------------------------------
+*/
+
+#devzone{
+	color: #ffffff;
+	justify-content: center;
+	align-content: center;
+}
+
+#devzone section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	justify-self: center;
+}
+
+#devzone div{
+	width: 80vw;
+	padding-top: 5px;
+	padding-bottom: 45px;
+	font-size: 1.8em;
+}
+
+
+/*EMAIL SIGNUP
+----------------------------------------
+Learned from Dan Aleko YT Video with customisations made
+*/
+
+#subscription-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #cbdde4;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.1);
+}
+
+#subscription-container img {
+  max-width: 860px;
+  position: relative;
+  right: 30px;
+  bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="email"] {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 12px;
+  background-color: #da4d11;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #da4d11;
+}
+
+/* ABOUT THE DEV
+----------------------------------------
+*/
+
+#aboutDev {
+	background-color: #cbdde4;
+	display: flex;
+	justify-content: space-around;
+}
+
+#aboutDev h3{
+	
+	justify-content: space-around;
+}
+
+#aboutDev section{
+	justify-self: center;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* FOOTER
+----------------------------------------
+*/
+
+footer {
+	font-size: 0.8em;
+	background-color: #070707;
+	color: #ffffff;
+}
+
+footer #aoc {
+	padding-top: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 1.1em;
+	margin-top: 0px;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+footer li {
+	list-style: none;
+	padding: 10px 20px;
+}
+
+footer li a{
+	color: #da4d11;
+}

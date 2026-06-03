@@ -379,5 +379,9 @@ body{
 	display: block;
 }
 
+iframe{
+	max-width: 100vw ;
+	height: auto;
+}
 
 }

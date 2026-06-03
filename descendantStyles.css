@@ -372,7 +372,7 @@ footer li a{
 }
 
 body{
-	width: 100vw;
+	width: 100%;
 }
 
 #twoColumns{
@@ -422,6 +422,9 @@ iframe{
 	height: auto;
 }
 
+#aboutDev{
+	display: block;
+}
 
 
 

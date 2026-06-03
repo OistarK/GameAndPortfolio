@@ -467,7 +467,7 @@ iframe{
 
 #navh {
 	background-color: #cbdde4;
-	z-index: 2;
+	z-index: 20;
 	list-style: none;
     font-weight: bold;
 	font-size: 1em;

@@ -436,7 +436,7 @@ iframe{
 	justify-self: center;
 	align-self: center;
     position: absolute;
-    bottom: 60vh;
+    bottom: 60%;
 }
 
 #steamButton img{

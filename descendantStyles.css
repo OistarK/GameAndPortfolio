@@ -378,6 +378,7 @@ body{
 }
 
 #trailerArea {
+	width: 100%;
 	justify-content: center;
 	justify-self: center;
 	align-self: center;
@@ -420,9 +421,11 @@ body{
 }
 
 #twoColumns div p{
-	max-width: 360px ;
+	width: 100%;
 	height: auto;
 	text-align: center;
+	left: 50%;
+	right: 50%;
 }
 
 #twoColumns div h3{
@@ -437,11 +440,6 @@ iframe{
 	height: auto;
 }
 
-#trailerArea{
-	max-width: 360px ;
-	width: 360px;
-	height: auto;
-}
 
 #steamButton{
 	max-width: 360px ;

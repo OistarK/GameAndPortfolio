@@ -479,4 +479,8 @@ iframe{
     top: 0%;
 }
 
+#rightSide{
+	display: none;
+}
+
 }

@@ -526,7 +526,7 @@ switches to head nav, removes some columns and scales elements accordingly
 		font-size: 0.8em;
 	}
 	#bigGame {
-		width: 90%; height: auto;
+		width: 100%; height: auto;
 	}
 	#bigGame img{
 		width: 90%; height: auto;

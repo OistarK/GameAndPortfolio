@@ -375,8 +375,27 @@ body{
 	width: 100vw;
 }
 
-#twoColumns {
+#twoColumns{
 	display: block;
+	max-width: 360px ;
+	width: 360px;
+	height: auto;
+}
+
+#twoColumns div{
+	max-width: 360px ;
+	width: 360px;
+	height: auto;
+}
+
+#twoColumns div img{
+	max-width: 360px ;
+	height: auto;
+}
+
+#twoColumns div p{
+	max-width: 360px ;
+	height: auto;
 }
 
 iframe{
@@ -402,5 +421,9 @@ iframe{
 	width: 360px;
 	height: auto;
 }
+
+
+
+
 
 }

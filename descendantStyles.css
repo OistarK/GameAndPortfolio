@@ -481,6 +481,21 @@ iframe{
 	border: 2px;
 	border: #000000;
 	border-radius: 8px;
+	z-index: 20;
+}
+
+#navh ul li{
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style: none;
+	z-index: 20;
+	align-content: center;
+	align-self: center;
+	justify-self: center;
+	justify-content: center;
+	text-align: center;
 }
 
 #titleArea #dynamicBG img{

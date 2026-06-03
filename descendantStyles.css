@@ -356,3 +356,21 @@ footer li {
 footer li a{
 	color: #da4d11;
 }
+
+/* MEDIA MOBILE
+----------------------------------------
+*/
+
+@media (max-width: 767px) {
+
+#birdsection {
+	display: none;
+}
+
+#subscription-container img{
+	display: none;
+}
+
+
+
+}

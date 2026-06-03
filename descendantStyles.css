@@ -371,6 +371,13 @@ footer li a{
 	display: none;
 }
 
+body{
+	width: 100vw;
+}
+
+#twoColumns {
+	display: block;
+}
 
 
 }
